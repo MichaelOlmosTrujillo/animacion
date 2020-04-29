@@ -7,7 +7,7 @@
 
 .selected {
     font-weight: bold;
-    border-bottom: solid rgb(red, green, blue);
+    border-bottom: solid tomato;
 }
 
 .nav-bar a {
