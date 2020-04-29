@@ -5,10 +5,20 @@
 
 }
 
+.selected {
+    font-weight: bold;
+    border-bottom: solid rgb(red, green, blue);
+}
+
 .nav-bar a {
     display: inline-block;
     text-decoration: none;
     color: black;
+}
+
+.nav-bar a.active {
+    background-color: red;
+    color: white;
 }
 
 .nav-bar ul {
@@ -28,7 +38,7 @@ p {
 
 section img {
     animation-name: danza;
-    animation-duration: 6s;
+    animation-duration: 9s;
 }
 
 @keyframes danza {
