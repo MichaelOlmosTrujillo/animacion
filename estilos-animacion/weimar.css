@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+
+body img {
+
+    max-width: 100%;
+}
+
+.TITULO {
+
+    max-width: 100%;
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    border: 1px;
+    background-color: blueviolet;
+    border-color: red;
+    color: white;
+    border-style: double;
+}
+
+.pruebacanvas {
+
+    margin: 100%;
+    padding: 10em;
+    border: 10px;
+    background-color: blueviolet;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: center;
+    animation-name: example;
+    animation-duration: 4s;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        center: 100px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 600px;
+        top: 0px;
+    }
+
+}
+
+h1 {
+    text-align: center;
+    background-color: sandybrown;
+    height: 60px;
+    width: 800px;
+    box-sizing: content-box;
+
+}
+
+h1 {
+    text-align: center;
+    background-color: sandybrown;
+    height: 60px;
+    width: 800px;
+    box-sizing: content-box;
+
+}
