@@ -10,3 +10,40 @@ body img {
 
     max-width: 100%;
 }
+
+/*estilos para el menu */
+.navbarindex li {
+    padding: 5px;
+    display: inline-block;
+    list-style-type: none;
+
+
+}
+
+.navbarindex ul {
+    font-size: 25px;
+
+    text-align: center;
+
+
+}
+
+.navbarindex a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(252, 0, 0);
+    padding: 10px;
+}
+
+.navbarindex li:hover {
+    background-color: black;
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: solid red;
+}
+
+
+
+/*estilos para el menu */
