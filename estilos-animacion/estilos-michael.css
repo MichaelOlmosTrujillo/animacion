@@ -1,0 +1,22 @@
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
