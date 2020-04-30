@@ -11,39 +11,32 @@ body img {
     max-width: 100%;
 }
 
-/*estilos para el menu */
-.navbarindex li {
-    padding: 5px;
+/* --- estilos del menu */
+
+.nav-bar li {
     display: inline-block;
+    text-align: center;
     list-style-type: none;
 
-
-}
-
-.navbarindex ul {
-    font-size: 25px;
-
-    text-align: center;
-
-
-}
-
-.navbarindex a {
-    display: inline-block;
-    text-decoration: none;
-    color: rgb(252, 0, 0);
-    padding: 10px;
-}
-
-.navbarindex li:hover {
-    background-color: black;
 }
 
 .selected {
     font-weight: bold;
-    border-bottom: solid red;
+    border-bottom: solid rgb(15, 99, 255);
 }
 
+.nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
 
+.nav-bar ul {
+    list-style-type: none;
+}
 
-/*estilos para el menu */
+.flex {
+    display: flex;
+    justify-content: center;
+    
+}
