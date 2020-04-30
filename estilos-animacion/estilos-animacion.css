@@ -10,3 +10,33 @@ body img {
 
     max-width: 100%;
 }
+
+/* --- estilos del menu */
+
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: solid rgb(15, 99, 255);
+}
+
+.nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    
+}
