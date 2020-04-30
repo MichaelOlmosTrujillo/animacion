@@ -49,16 +49,12 @@ body img {
     display: inline-block;
     text-decoration: none;
     color: black;
+    justify-content: right;
 }
-
-/* .nav-bar a.active {
-    background-color: red;
-    color: white;
-} */
 
 .navbar ul {
     list-style-type: none;
-    display: flex;
+    display: inline-block;
     justify-content: center;
 }
 
@@ -69,13 +65,19 @@ body {
 }
 
 .cuadrito {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 600px;
+    height: 400px;
+    background-color: blue;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
+    box-sizing: initial;
+}
+
+.cuadrito img {
+    width: 600px;
+    height: 400px;
 }
 
 @keyframes example {
