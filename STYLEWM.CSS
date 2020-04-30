@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+body img {
+
+    max-width: 100%;
+}
+
+/* --- estilos del menu */
+
+.nav-bar li {
+    display: inline-block;
+    text-align: center;
+    list-style-type: none;
+
+}
+
+.selected {
+    font-weight: bold;
+    border-bottom: solid rgb(255, 217, 15);
+}
+
+.nav-bar a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+/* .nav-bar a.active {
+    background-color: red;
+    color: white;
+} */
+
+.nav-bar ul {
+    list-style-type: none;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+/* estilos animacion */
+
+body {
+    margin: 0;
+}
+
+.cuadrito {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+@keyframes example {
+    0% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        background-color: yellow;
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        background-color: blue;
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        background-color: green;
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        background-color: red;
+        left: 0px;
+        top: 0px;
+    }
+}
