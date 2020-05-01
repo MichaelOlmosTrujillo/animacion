@@ -6,6 +6,13 @@ body {
     margin: 0;
 }
 
+.contenedor {
+    display: flex;
+    justify-content: center;
+
+
+}
+
 body img {
 
     max-width: 100%;
@@ -63,6 +70,7 @@ body img {
 }
 
 .navbarmanuel ul {
+
     font-size: 25px;
 
     text-align: center;
@@ -73,15 +81,78 @@ body img {
 .navbarmanuel a {
     display: inline-block;
     text-decoration: none;
-    color: rgb(252, 0, 0);
+    color: rgb(255, 255, 255);
     padding: 10px;
 }
 
+ul {
+    margin: 0%;
+    padding: 0%;
+}
+
+a:hover {
+
+
+
+    color: black;
+
+}
+
 .navbarmanuel li:hover {
-    background-color: black;
+    background-color: rgb(255, 255, 255);
+    border-bottom: solid rgb(2, 2, 2);
+
+
 }
 
 .selected {
+
+
     font-weight: bold;
-    border-bottom: solid red;
+    border-bottom: solid rgb(255, 255, 255);
+
+    text-decoration-color: black;
+}
+
+
+.navbarmanuel {
+    box-sizing: border-box;
+    background-color: black;
+    width: 33.3%;
+
+
+}
+
+nav {
+    animation-name: moved;
+    animation-duration: 3s;
+}
+
+@keyframes moved {
+    0% {
+        transform: translateY(-100px)
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+
+}
+
+nav {
+    animation-name: moved;
+    animation-duration: 3s;
+}
+
+@keyframes moved {
+    0% {
+        transform: translateY(-100px)
+    }
+
+    50% {
+        transform: translateY(0px);
+    }
+
+
 }
