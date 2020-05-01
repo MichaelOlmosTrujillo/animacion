@@ -4,6 +4,7 @@
 
 body {
     margin: 0;
+    background-color: "purple";
 }
 
 body img {
@@ -11,12 +12,31 @@ body img {
     max-width: 100%;
 }
 
+.TITULO {
+    background-color: aquamarine;
+    text-align: center;
+    color: white;
+
+}
+
+.TITULO h1 {
+    background-color: aquamarine;
+    text-align: center;
+    color: white;
+    font-size: 60PX;
+
+}
+
+
+
+
 /* --- estilos del menu */
 
-.nav-bar li {
+.navbar li {
     display: inline-block;
     text-align: center;
     list-style-type: none;
+    font-size: 30px;
 
 }
 
@@ -25,25 +45,17 @@ body img {
     border-bottom: solid rgb(255, 217, 15);
 }
 
-.nav-bar a {
+.navbar a {
     display: inline-block;
     text-decoration: none;
     color: black;
+    justify-content: right;
 }
 
-/* .nav-bar a.active {
-    background-color: red;
-    color: white;
-} */
-
-.nav-bar ul {
+.navbar ul {
     list-style-type: none;
-}
-
-.flex {
-    display: flex;
+    display: inline-block;
     justify-content: center;
-
 }
 
 /* estilos animacion */
@@ -53,13 +65,19 @@ body {
 }
 
 .cuadrito {
-    width: 100px;
-    height: 100px;
-    background-color: red;
+    width: 600px;
+    height: 400px;
+    background-color: blue;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
     animation-delay: 2s;
+    box-sizing: initial;
+}
+
+.cuadrito img {
+    width: 600px;
+    height: 400px;
 }
 
 @keyframes example {
